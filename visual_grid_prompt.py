@@ -606,9 +606,11 @@ class VisualGridPromptNode:
 
 
 NODE_CLASS_MAPPINGS = {
-    "VisualGridPromptNode": VisualGridPromptNode
+    "VisualGridPrompt": VisualGridPromptNode,
+    "VisualGridPromptNode": VisualGridPromptNode,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "VisualGridPromptNode": "📐 Visual Grid Regional Prompt (Web Pro)"
+    "VisualGridPrompt": "📐 Visual Grid Regional Prompt (Pro)",
+    "VisualGridPromptNode": "📐 Visual Grid Regional Prompt (Web Pro)",
 }
